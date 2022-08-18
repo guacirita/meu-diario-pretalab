@@ -1,11 +1,12 @@
 .header{
-    margin-top: 0;
-    padding-top: 0%;
-    background-color: rgb(121, 6, 6);
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width:300%;
-    }
-    
+    margin: 5px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: brown;
+    height: 200px;
+    width: 1280px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+   
+}
