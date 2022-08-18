@@ -1,5 +1,10 @@
+.card-container{
+    height: 30px;
+    width: 30px;
+}
+
 img{
-    height: 100px;
-    width: 100px;
-    image-rendering: auto; 
+    width: 500%;
+    padding-left: 30px;
+    align-items: center;
 }
