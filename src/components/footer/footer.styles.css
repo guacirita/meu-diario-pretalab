@@ -1,7 +1,7 @@
 .footer{
     margin: 5px;
     background-color: brown;
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -9,6 +9,7 @@
     padding-bottom: 5px;
     font-size: 20px;
     font-style: italic;
+    color: white;
 }
 
 /* background-color: #686aac;

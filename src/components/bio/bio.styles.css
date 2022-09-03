@@ -1,0 +1,36 @@
+
+.container{    
+    /* background-color: aquamarine;
+    padding: 1% 25%;
+    margin: 0 auto;
+    width: 640px;
+    /* position: relative; */
+    /* display:list-item;   */ 
+    display:flex;
+    margin:40px auto;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    width:60%
+}
+
+
+.bio{
+    /* font-size: 1.5rem; */
+    font-weight:900;
+    font-size:36px
+}
+
+p{
+    /* font-size: 1rem;
+    text-align: justify; */
+    font-weight:300;
+    font-size:18px
+}
+
+.img{
+    /* width: 60%;  */
+    width:300x;
+    height:300px;
+}
+

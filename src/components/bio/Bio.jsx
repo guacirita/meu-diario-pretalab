@@ -1,10 +1,13 @@
-import './bio.styles.css'
+import image from "../../assets/eu.jpg"
+import '../bio/bio.styles.css'
 
 function Bio(){
     return(
-        <div>
+        <div className="container bio">
              <h1 className="bio">Prazer, Jacira</h1>
-             <p>estou em migração de carreira para a tecnologia</p>
+             <p>Saindo da área de humanas e migrando para a tecnologia após os 50 anos. 
+                Dando meus primeiros passos através das oficinas da Pretalab.</p>
+             <img className="img" src={image} alt="Foto de Jacira" />
         </div>
        
     )
