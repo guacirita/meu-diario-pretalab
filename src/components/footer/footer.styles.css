@@ -1,20 +1,17 @@
 .footer{
-    margin: 5px;
+    margin: 25px auto 0;
     background-color: brown;
     height: 50px;
-    display: flex;
+    display:grid;
     justify-content: center;
     flex-direction: row;
     padding-top: 50px;
     padding-bottom: 5px;
+}
+
+.footer-texto{
     font-size: 20px;
     font-style: italic;
     color: white;
 }
 
-/* background-color: #686aac;
-height: 100px;
-display: flex;
-justify-content: center;
-flex-direction: row;
-width: 100%; */

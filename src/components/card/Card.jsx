@@ -4,6 +4,37 @@ import "./card.styles.css"
 function Card(){
     return(
         <div className="card-container">
+            <div className="card">
+                <h1>Git</h1>
+                <img src="https://c.tenor.com/2l4p482TgAoAAAAM/computer-lol.gif" alt="bonecos assustados com tecnologia" />
+                <p>O Git é um sistema para controlar versão de códigos e é usado pela grande maioria das pessoas desenvolvedoras atualmente. 
+                   Isso significa dizer que usando o git a gente pode esquecer o medo de perder alguma alteração que a gente fez no nosso código. 
+                   Ou se a gente precisar trabalhar em equipe fica super fácil de identificar quem mexeu em cada linha de código ou como resolver conflitos se as pessoas mexerem nas mesmas linhas.</p>
+            </div>
+
+            <div className="card">
+                <h1>HTML</h1>
+                <img src="https://c.tenor.com/ogsH7Ailje8AAAAd/cat-funny-cat.gif" alt="gato nerd" />
+                <p>HTML é uma abreviação de Hyper Text Markup Language (linguagem de marcação em hipertexto). 
+                    Ou seja, não se trata de uma linguagem de programação, pois não tem lógica (algoritmos, processos etc). 
+                    Ele cria a estrutura de uma página ou aplicação web, determinando a separação de layout e conteúdo.</p>
+            </div>
+
+            <div className="card">
+                <h1>CSS</h1>
+                <img src="https://c.tenor.com/ZRQtbfMjbLYAAAAM/skeleton-typing.gif" alt="esqueleto codando" />
+                <p>CSS é abreviação de Cascading Style Sheet (folha de estilos em cascata). 
+                    É a linguagem que define estilos para o HTML, portanto, não se trata de linguagem de programação. CSS tem 'cascata' no nome, devido a sua forma de determinar a propriedade de um elemento - 
+                    levando em consideração hierarquia de seletores e de chamadas de estilo (inline, internal e external). 
+                    Para fazer o link de um arquivo .css em um documento .html, devemos inserir a tag no do documento, com o href do caminho do arquivo.</p>
+            </div>
+
+            <div className="card">
+                <h1>JavaScript</h1>
+                <img src="https://c.tenor.com/y2JXkY1pXkwAAAAC/cat-computer.gif" alt="gato teclando" />
+                <p>Segundo o livro "Estrutura de dados e algoritmos com JavaScript", de Loiane Groner: "JavaScript é uma das linguagens de programação mais populares atualmente, é conhecida como a linguagem da internet porque os navegadores a entendem de modo nativo, sem a instalação de qualquer plugin." 
+                   Praticamente todos os sites e aplicações web usam JavaScript, até outras ferramentas que são usadas para web, no fim das contas vão precisar transformar o código em JavaScript para que o navegador entenda.</p>
+            </div>
             
         </div>
     )

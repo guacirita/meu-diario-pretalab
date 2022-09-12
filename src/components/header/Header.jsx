@@ -2,7 +2,10 @@ import './header.styles.css'
 
 function Header(){
     return (
-        <h1 className="header">Meu Diário da Preta Lab</h1>
+        <div className='header'>
+            <h1 className="header-titulo">Meu Diário da Preta Lab</h1>
+        </div>
     )
+        
 }
     export default Header

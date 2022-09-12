@@ -2,9 +2,9 @@ import './footer.styles.css'
 
 function Footer(){
     return(
-        <>
-        <p className="footer">Feito com carinho por Jacira</p>
-        </>
+        <div className='footer'>
+        <p className="footer-texto">Feito com carinho por Jacira</p>
+        </div>
     )
 }
     export default Footer
